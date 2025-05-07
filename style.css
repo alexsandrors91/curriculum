@@ -1,0 +1,79 @@
+/* Reset básico para compatibilidade */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+#header {
+    background-color: aqua;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Hubballi", sans-serif;
+}
+
+/* Nome e título */
+#nameAndTitle {
+    background-color: azure;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+#nameAndTitle h1,
+#nameAndTitle h2 {
+    margin: 0;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+/* Contato */
+#contact {
+    list-style-type: none;
+}
+#contact i {
+    width: 30px;
+    color: aqua;
+}
+
+/* Layout geral */
+#container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20px;
+    padding: 0 20px 50px 20px;
+}
+
+/* Sidebar e conteúdo */
+#sidebar,
+#content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+/* Cartões */
+.card {
+    font-family: "Montserrat", sans-serif;
+    border: 1px solid #aeaeae;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+/* Título de cartões */
+.card h3 {
+    font-family: "Hubballi", sans-serif;
+    margin-bottom: 10px;
+}
+
+/* Links */
+.card a {
+    color: #0000ee;
+    text-decoration: none;
+}
+.card a:hover {
+    text-decoration: underline;
+}
